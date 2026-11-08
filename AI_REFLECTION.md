@@ -1,16 +1,15 @@
 1.) Tools used: Identify any AI tools you used and what you used them for, or state that you did not use AI.
 
-I did use Replit to review my code to make sure I would not have any problems before running the program. Writing the program was straightforward enough and was easy to navigate after knowing the data types and output in C++
+I used Replit to make sure when I displayed the error, like if the user put in a negative number or a choice outside 1-4, correctly. 
 
 2.) One decision: Describe one suggestion, correction, or design decision and explain what you accepted, changed, or rejected.
 
-One correction was the output and mistake they found when writing out std::cout <<. I accepted the correction because the program would have had an error if I did not fix it. 
-
+One correction was using a return of 0 if the user put a negative number instead of a positive. I accepted the correction so the program will stop after printing a negative number. 
 
 3.) Verification: Identify a specific output comparison, test, warning, or compiler result you used.
 
-I looked back at the requirements along with examples and checked that each part was there and answered. 
+I compared the expected results to the results I received with my program to verify that it was written correctly. I also used an additional calculation (shown in the tested table) to make sure the program works correctly. 
 
 4.) Learning: Explain one thing you can now do or describe yourself and one thing you still need to practice.
 
-One thing I can do now is make sure my program is easy to read and understand along with writing the output in C++. However, one thing I still need to practice is catching my mistakes with the use of AI. 
+One thing I can do now is ask the user and display the output. However, one thing I still need to practice is formatting my code correctly. 
