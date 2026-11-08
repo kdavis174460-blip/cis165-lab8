@@ -10,7 +10,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 const double pi = 3.14159;
 
-int main() {
+int main() { 
     int choice;
     double area;
 
