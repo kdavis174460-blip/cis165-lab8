@@ -29,7 +29,7 @@ int main() {
         std::cin >> radius;
         
         if (radius < 0) {
-            std::cout << "Error: radius cannot be negative.\n";
+            std::cout << "ERROR: Radius cannot be negative.\n";
             return 0;
         }
 
@@ -46,7 +46,7 @@ int main() {
         std::cin >> width;
         
         if (length < 0 || width < 0) {
-            std::cout << "Error: length and width cannot be negative.\n";
+            std::cout << "ERROR: Length and width cannot be negative.\n";
             return 0;
         }
 
@@ -63,7 +63,7 @@ int main() {
         std::cin >> height;
         
         if (base < 0 || height < 0) {
-            std::cout << "Error: base and height cannot be negative.\n";
+            std::cout << "ERROR: Base and height cannot be negative.\n";
             return 0;
         }
 
@@ -74,7 +74,7 @@ int main() {
         return 0;
     } 
     else {
-        std::cout << "Error: choice must be between 1 and 4.\n";
+        std::cout << "ERROR: Choice must be between 1 and 4.\n";
         return 0;
     }
 
