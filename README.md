@@ -31,6 +31,7 @@ Restored it back to its original values, even though the test table also records
 | Choice 1, radius -1 | Displays an error;use positive values for any other dimension | "ERROR: Radius cannot be negative" | Match |
 | Choice 2, length/width -1 | Displays an error;use positive values for any other dimension | "ERROR: Length and width cannot be negative" | Match |
 | Choice 3, base/height -1 | Displays an error;use positive values for any other dimension | "ERROR: Base and height cannot be negative" | Match |
+| Choice 1, radius 0 | Area 0 | Area 0 | Match |
 | Choice 1, radius 3 | Area 28.27431 | Area 28.2743 | Match |
 
 # How To Run The Program 
