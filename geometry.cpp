@@ -8,7 +8,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 #include <iostream>
 
-const double pi = 3.14159;
+const double PI = 3.14159;
 
 int main() { 
     int choice;
@@ -33,7 +33,7 @@ int main() {
             return 0;
         }
 
-        area = pi * radius * radius;
+        area = PI * radius * radius;
         std::cout << "Area of the circle: " << area << '\n';
     } 
     else if (choice == 2) {
